@@ -19,4 +19,4 @@
 \contentsline {subsection}{\numberline {4.0.5}访问和处理像素}{10}{subsection.4.0.5}
 \contentsline {chapter}{\numberline {5}画图}{11}{chapter.5}
 \contentsline {section}{\numberline {5.1}直线和矩形}{11}{section.5.1}
-\contentsline {chapter}{参考文献}{15}{chapter*.10}
+\contentsline {chapter}{参考文献}{15}{chapter*.9}

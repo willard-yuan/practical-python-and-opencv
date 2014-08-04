@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.6.20)  4 AUG 2014 20:22
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.6.20)  4 AUG 2014 23:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1797,35 +1797,65 @@ Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 )
 (d:/ProgramFiles/texlive14/texmf-dist/tex/generic/beebe/texnames.sty
 This is texnames.sty, Version 1.10 <02 March 1998>
-) (./guide.aux)
+) (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count199
+\lst@gtempboxa=\box81
+\lst@token=\toks47
+\lst@length=\count200
+\lst@currlwidth=\dimen324
+\lst@column=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\lst@pos=\count277
+\lst@lostspace=\dimen325
+\lst@width=\dimen326
+\lst@newlines=\count278
+\lst@lineno=\count279
+\lst@maxwidth=\dimen327
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count280
+\lst@skipnumbers=\count281
+\lst@framebox=\box82
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+Package: xeCJK-listings 2014/05/13 v3.2.12 xeCJK patch file for listings
+\l__xeCJK_listings_flag_int=\count282
+)
+(./guide.aux)
 \openout1 = `guide.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 51.
  (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 34.
-\AtBeginShipoutBox=\box81
-Package hyperref Info: Link coloring ON on input line 34.
+LaTeX Font Info:    ... okay on input line 51.
+\AtBeginShipoutBox=\box83
+Package hyperref Info: Link coloring ON on input line 51.
 
 (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1833,11 +1863,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (d:/ProgramFiles/texlive14/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count199
+\c@section@level=\count283
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
 (./guide.out) (./guide.out)
 \@outlinefile=\write4
 \openout4 = `guide.out'.
@@ -1878,6 +1908,7 @@ LaTeX Info: Redefining \nameref on input line 34.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
 Package lastpage Info: Please have a look at the pageslts package at
@@ -1886,12 +1917,13 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 34.
+(lastpage)             ! on input line 51.
+\c@lstlisting=\count284
 
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \Pifont with arg. spec. 'm' on line 34.
+* Redefining document command \Pifont with arg. spec. 'm' on line 51.
 *************************************************
 .................................................
 . fontspec info: "no-font-shape"
@@ -1917,52 +1949,52 @@ Package lastpage Info: Please have a look at the pageslts package at
 .................................................
 File: ./figure/logo.pdf Graphic file (type QTm)
 <use  "./figure/logo.pdf" >
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 35.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 52.
 
 (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 35.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 52.
 
 
 (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 35.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 52.
 
 
 (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 35.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 52.
 
 
 (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 35.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 52.
 
 
 (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 35.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 52.
 
 (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 35.
+(Font)              scaled to size 12.50409pt on input line 52.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 35.
+(Font)              scaled to size 9.37807pt on input line 52.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 35.
+(Font)              scaled to size 7.29405pt on input line 52.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 35.
+(Font)              scaled to size 12.50409pt on input line 52.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 35.
+(Font)              scaled to size 9.37807pt on input line 52.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 35.
+(Font)              scaled to size 7.29405pt on input line 52.
 File: ./figure/cover.pdf Graphic file (type QTm)
 
 <use  "./figure/cover.pdf" > [1
@@ -2028,7 +2060,7 @@ Underfull \vbox (badness 3815) has occurred while \output is active []
 File: ./figure/greenbase.pdf Graphic file (type QTm)
 
 <use  "./figure/greenbase.pdf" > [4]
-Overfull \hbox (61.67801pt too wide) in paragraph at lines 131--132
+Overfull \hbox (61.67801pt too wide) in paragraph at lines 148--149
 [][][][][] [] [][] [] [][][][][][][] [] [][][][][][][][][][][][] [] [][][][][] 
 [] [][] [] [][][][][][][] [] [][][][][][][][][][][][] [] [][][][] [] [][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][]\EU1/微软雅黑(0)/m/it/12
@@ -2041,7 +2073,23 @@ File: ./figure/greenbase.pdf Graphic file (type QTm)
  <use  "./figure/greenbase.pdf" > [6]
 第 3章 3.
 File: ./figure/greenbase.pdf Graphic file (type QTm)
-<use  "./figure/greenbase.pdf" > [7
+<use  "./figure/greenbase.pdf" >
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 183.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 183.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 183.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 183.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 183.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 183.
+ [7
 
 ]
 .................................................
@@ -2055,15 +2103,15 @@ File: ./figure/greenbase.pdf Graphic file (type QTm)
 
 
 LaTeX Font Warning: Font shape `U/manual/m/it' undefined
-(Font)              using `U/manual/m/n' instead on input line 181.
+(Font)              using `U/manual/m/n' instead on input line 208.
 
 
 LaTeX Font Warning: Font shape `EU1/微软雅黑(1)/m/it' undefined
-(Font)              using `EU1/微软雅黑(1)/m/n' instead on input line 182.
+(Font)              using `EU1/微软雅黑(1)/m/n' instead on input line 209.
 
 
 LaTeX Font Warning: Font shape `EU1/Arial(0)/m/sc' undefined
-(Font)              using `EU1/Arial(0)/m/n' instead on input line 187.
+(Font)              using `EU1/Arial(0)/m/n' instead on input line 214.
 
 File: ./figure/greenbase.pdf Graphic file (type QTm)
 <use  "./figure/greenbase.pdf" > [8]
@@ -2072,10 +2120,10 @@ File: ./figure/greenbase.pdf Graphic file (type QTm)
 <use  "./figure/greenbase.pdf" >
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 193.
+(hyperref)                than one, level fixed on input line 220.
 
 
-Overfull \hbox (42.32059pt too wide) in paragraph at lines 225--226
+Overfull \hbox (42.32059pt too wide) in paragraph at lines 252--253
 []\EU1/微软雅黑(1)/m/n/12 综 合 起 来，|  同 时 调 用 三 个 选 项 使 用 []\EU1/Arial(1)/m/n/12 \do
 cumentclass[color=X,Y,titlestyle=Z] {elegantbook}\EU1/微软雅黑(1)/m/n/12 。|
  []
@@ -2088,7 +2136,7 @@ File: ./figure/greenbase.pdf Graphic file (type QTm)
 第 5章 5.
 File: ./figure/greenbase.pdf Graphic file (type QTm)
 <use  "./figure/greenbase.pdf" >
-LaTeX Font Info:    Try loading font information for U+fplmbb on input line 254
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 281
 .
 
 (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/ufplmbb.fd
@@ -2096,7 +2144,7 @@ File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 ) [11
 
 ]
-Overfull \hbox (0.18727pt too wide) in paragraph at lines 268--270
+Overfull \hbox (0.18727pt too wide) in paragraph at lines 295--297
 []\EU1/Arial(0)/bx/n/12 Exercise5.1:  \EU1/Arial(0)/m/n/12 let $\OML/zplm/m/it/
 12 S \OT1/zplm/m/n/12 = \OML/zplm/m/it/12 l[] \OT1/zplm/m/n/12 = [](\OML/zplm/m
 /it/12 x[]\OT1/zplm/m/n/12 ) \OMS/zplm/m/n/12 j 9 \OML/zplm/m/it/12 M[]\OMS/zpl
@@ -2110,17 +2158,13 @@ plm/m/it/12 y\OT1/zplm/m/n/12 ) =
 File: ./figure/greenbase.pdf Graphic file (type QTm)
 <use  "./figure/greenbase.pdf" > [12]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 298.
+(Font)              scaled to size 11.40997pt on input line 325.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 298.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 298.
+(Font)              scaled to size 8.33606pt on input line 325.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 298.
+(Font)              scaled to size 11.40997pt on input line 325.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 298.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 298.
+(Font)              scaled to size 8.33606pt on input line 325.
 File: ./figure/greenbase.pdf Graphic file (type QTm)
  <use  "./figure/greenbase.pdf" > [13]
 (./guide.bbl
@@ -2133,23 +2177,23 @@ AED: lastpage setting LastPage
 [15
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 384.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 384.
  (./guide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 357.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 384.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 384.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 39158 strings out of 493734
- 789822 string characters out of 6145568
- 946029 words of memory out of 5000000
- 41881 multiletter control sequences out of 15000+600000
- 23825 words of font info for 125 fonts, out of 8000000 for 9000
+ 40570 strings out of 493734
+ 810662 string characters out of 6145568
+ 1017002 words of memory out of 5000000
+ 43274 multiletter control sequences out of 15000+600000
+ 28586 words of font info for 140 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 62i,16n,71p,10395b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,71p,10395b,1206s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on guide.pdf (17 pages).

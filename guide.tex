@@ -29,6 +29,26 @@
 \usepackage{texnames}
 \usepackage{url}
 
+%定义python语法高亮%
+%开始%
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color
+  basicstyle=\footnotesize,        % size of fonts used for the code
+  breaklines=true,                 % automatic line breaking only at whitespace
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  keywordstyle=\color{blue},       % keyword style
+  stringstyle=\color{mymauve},     % string literal style
+}
+%结束%
 
 
 \begin{document}
@@ -160,9 +180,19 @@ OpenCV文档提供了在Windows和Linux用二进制版本安装OpenCV非常棒�
 
 首先，我们创建一个名为load\_display\_save.py来包含我们的代码，现在我们可以开始写代码了：
 
-\begin{newdef}[load\_display\_save.py]
-If $z$ is wiener process, then for any partition $t_0,t_1,t_2,\ldots$ of time interval, the random variables $z(t_1)-z(t_0),z(t_2)-z(t_1),\ldots$ are independently and normally distributed with zero means and variance $t_1-t_0,t_2-t_1,\ldots$
-\end{newdef}
+\begin{lstlisting}[language=python]
+>>> from numpy import *
+>>> from numpy.fft import *
+>>> signal = array([-2., 8., -6., 4., 1., 0., 3., 5.])
+>>> fourier = fft(signal)
+>>> N = len(signal)
+>>> timestep = 0.1 # if unit=day -> freq unit=cycles/day
+>>> freq = fftfreq(N, d=timestep) # freqs corresponding to 'fourier'
+>>> freq
+array([ 0. , 1.25, 2.5 , 3.75, -5. , -3.75, -2.5 , -1.25])
+>>> fftshift(freq) # freqs in ascending order
+array([-5. , -3.75, -2.5 , -1.25, 0. , 1.25, 2.5 , 3.75])
+\end{lstlisting}
 
  我们目前都是学生，接触 \LaTeX{} 的时间也不是很长，因此，对于此模板的错误还请多多包涵！ 目前，模板的拓展性或者可移植性有待完善，所以，我们强烈建议用户不要大幅修改模板文件，我们的初衷是提供一套模板，让初学者能够使用一些比较美观，优雅的模板。如果在使用过程中，想修改一些简单的东西需要帮忙，请联系我们，我们的邮箱是：\href{elegantlatex2e@gmail.com}{elegantlatex2e@gmail.com}。我们将竭尽全力提供帮助！
 
