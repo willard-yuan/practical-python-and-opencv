@@ -537,4 +537,1619 @@ L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
 \l__coffin_right_corner_dim=\dimen179
 \l__coffin_bottom_corner_dim=\dimen180
 \l__coffin_top_corner_dim=\dimen181
-\l__coffin
+\l__coffin_scaled_total_height_dim=\dimen182
+\l__coffin_scaled_width_dim=\dimen183
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2014/05/05 v4740 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count150
+\l__xparse_m_args_int=\count151
+\l__xparse_mandatory_args_int=\count152
+\l__xparse_processor_int=\count153
+\l__xparse_v_nesting_int=\count154
+)
+\l_fontspec_script_int=\count155
+\l_fontspec_language_int=\count156
+\l_fontspec_strnum_int=\count157
+\l_fontspec_tmpa_dim=\dimen184
+\l_fontspec_tmpb_dim=\dimen185
+\l_fontspec_tmpc_dim=\dimen186
+Variant \tl_gset:cV already defined; not changing it on line 69
+
+*************************************************
+* fontspec warning: "cm-default-obsolete"
+* 
+* The "cm-default" package option is obsolete.
+*************************************************
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+Package: fontspec-patches 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLa
+TeX
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2014/05/13 v1.1q fixes to LaTeX
+LaTeX Info: Redefining \em on input line 429.
+LaTeX Info: The control sequence `\[' is already robust on input line 480.
+LaTeX Info: The control sequence `\]' is already robust on input line 481.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 30.
+LaTeX Info: Redefining \- on input line 33.
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \oldstylenums with arg. spec. 'm' on line 128.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \liningnums with arg. spec. 'm' on line 132.
+.................................................
+) (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaTe
+X
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/euenc/eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/euenc/eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
+.
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/euenc/eu1lmss.fd
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+\tipaTiiicode=\count158
+\tipasavetokens=\toks29
+\tipachecktokens=\toks30
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 41.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 46.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 51.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 56.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 69.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 73.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 77.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 96.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 100.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defaultfontfeatures with arg. spec. 'om' on line
+. 108.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 144.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 156.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 164.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 172.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeature with arg. spec. 'mm' on line
+. 201.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
+. line 203.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontscript with arg. spec. 'mm' on line 208.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 235.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
+. line 256.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 582
+Variant \prop_gput:cnx already defined; not changing it on line 583
+\l_fontspec_tmp_int=\count159
+LaTeX Info: Redefining \itshape on input line 2087.
+LaTeX Info: Redefining \slshape on input line 2092.
+LaTeX Info: Redefining \scshape on input line 2097.
+LaTeX Info: Redefining \upshape on input line 2102.
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/xltxtra/xltxtra.sty
+Package: xltxtra 2010/09/20 v0.5e Improvements for the "XeLaTeX" format
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/realscripts/realscripts.sty
+Package: realscripts 2013/03/18 v0.3c Access OpenType subscripts and superscrip
+ts
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fakesubscript with arg. spec. 'm' on line 19.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fakesuperscript with arg. spec. 'm' on line 22.
+.................................................
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \textsubscript with arg. spec. 's' on line 25.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \textsuperscript with arg. spec. 's' on line 28.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \realsubscript with arg. spec. 'm' on line 45.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \realsuperscript with arg. spec. 'm' on line 60.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \textsubsuperscript with arg. spec. 'sO{l}mm' on
+. line 138.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \textsupersubscript with arg. spec. 'sO{l}mm' on
+. line 143.
+.................................................
+\subsupersep=\dimen187
+) (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks31
+\xl@@everylogo=\toks32
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\xxt@tempbox=\box45
+)
+\g__file_internal_ior=\read1
+\g_fontspec_family_Arial_int=\count160
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Arial(0)' created for font 'Arial' with options
+. [Mapping=tex-text,Ligatures=TeX].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Arial/ICU:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->"Arial/B/ICU:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;"
+
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->"Arial/I/ICU:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;"
+
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->"Arial/BI/ICU:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;
+"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Arial(1)' created for font 'Arial' with options
+. [Mapping=tex-text,].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Arial/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Arial/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Arial/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Arial/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Arial(1)' created for font 'Arial' with options
+. [Mapping=tex-text,].
+. 
+. This font family consists of the following shapes:
+.................................................
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2014/05/13 v3.2.12 Typesetting CJK scripts with XeLaTeX
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.
+sty
+Package: xtemplate 2014/05/05 v4740 L3 Experimental prototype document function
+s
+\l__xtemplate_tmp_dim=\dimen188
+\l__xtemplate_tmp_int=\count161
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip66
+Variant \prop_get:NoNTF already defined; not changing it on line 106
+Variant \prop_get:NoNT already defined; not changing it on line 107
+Variant \prop_get:NoNF already defined; not changing it on line 108
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.st
+y
+Package: l3keys2e 2014/05/05 v4740 LaTeX2e option processing using LaTeX3 keys
+) (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/everypage/everypage.sty
+Package: everypage 2007/06/20 1.1 Hooks to run on every page
+)
+\l__xeCJK_tmp_int=\count162
+\l__xeCJK_tmp_box=\box46
+\l__xeCJK_tmp_dim=\dimen189
+\l__xeCJK_tmp_skip=\skip67
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKShipoutHook with arg. spec. '' on line 145.
+.................................................
+\g__xeCJK_spacefactor_int=\count163
+\l__xeCJK_begin_int=\count164
+\l__xeCJK_end_int=\count165
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \makexeCJKactive with arg. spec. '' on line 363.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \makexeCJKinactive with arg. spec. '' on line 364.
+.................................................
+\c__xeCJK_HalfLeft_class_int=\XeTeXintercharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXintercharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXintercharclass6
+\c__xeCJK_IVS_class_int=\XeTeXintercharclass7
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKDeclareCharClass with arg. spec.
+. 's>{\TrimSpaces }mm' on line 518.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__xeCJK_set_char_class_aux:Nnw with arg. spec.
+. 'm>{\SplitArgument {1}{->}}m' on line 535.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \normalspacedchars with arg. spec. 'm' on line
+. 577.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKResetPunctClass with arg. spec. '' on line
+. 584.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKResetCharClass with arg. spec. '' on line
+. 591.
+.................................................
+\c__xeCJK_CJK_node_dim=\dimen190
+\c__xeCJK_CJK-space_node_dim=\dimen191
+\c__xeCJK_default_node_dim=\dimen192
+\c__xeCJK_default-space_node_dim=\dimen193
+\c__xeCJK_CJK-nobreak_node_dim=\dimen194
+\c__xeCJK_normalspace_node_dim=\dimen195
+\l__xeCJK_ccglue_skip=\skip68
+\l__xeCJK_ecglue_skip=\skip69
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKnobreak with arg. spec. '' on line 1308.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKDeclareSubCJKBlock with arg. spec.
+. 's>{\TrimSpaces }m>{\TrimSpaces }m' on line 1497.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKCancelSubCJKBlock with arg. spec. 'sm' on
+. line 1508.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKRestoreSubCJKBlock with arg. spec. 'sm' on
+. line 1517.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKsetwidth with arg. spec. 'smm' on line 1615.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKsetkern with arg. spec. 'mmm' on line 1619.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'xeCJK/punctuation' taking \c_zero  argument(s) on
+. line 1720.
+.................................................
+\l__xeCJK_fixed_punct_width_dim=\dimen196
+\l__xeCJK_mixed_punct_width_dim=\dimen197
+\l__xeCJK_middle_punct_width_dim=\dimen198
+\l__xeCJK_fixed_margin_width_dim=\dimen199
+\l__xeCJK_mixed_margin_width_dim=\dimen200
+\l__xeCJK_middle_margin_width_dim=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\l__xeCJK_bound_punct_width_dim=\dimen256
+\l__xeCJK_bound_margin_width_dim=\dimen257
+\l__xeCJK_margin_minimum_dim=\dimen258
+\l__xeCJK_kerning_total_width_dim=\dimen259
+\l__xeCJK_same_align_margin_dim=\dimen260
+\l__xeCJK_different_align_margin_dim=\dimen261
+\l__xeCJK_kerning_margin_width_dim=\dimen262
+\l__xeCJK_kerning_margin_minimum_dim=\dimen263
+\l__xeCJK_bound_dim=\dimen264
+\l__xeCJK_reverse_bound_dim=\dimen265
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKDeclarePunctStyle with arg. spec.
+. '>{\TrimSpaces }mm' on line 2205.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKEditPunctStyle with arg. spec.
+. '>{\TrimSpaces }mm' on line 2218.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setCJKfallbackfamilyfont with arg. spec. 'mO{}m'
+. on line 2306.
+.................................................
+\g__xeCJK_family_int=\count166
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \CJKfamily with arg. spec. 't+t-m' on line 2730.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__xeCJK_gobble_CJKfamily:wn with arg. spec.
+. 't+t-m' on line 2744.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setCJKmainfont with arg. spec. 'O{}m' on line
+. 2794.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setCJKsansfont with arg. spec. 'O{}m' on line
+. 2800.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setCJKmonofont with arg. spec. 'O{}m' on line
+. 2805.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setCJKfamilyfont with arg. spec. 'mO{}m' on line
+. 2812.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newCJKfontfamily with arg. spec. 'omO{}m' on line
+. 2818.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \CJKfontspec with arg. spec. 'O{}m' on line 2823.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defaultCJKfontfeatures with arg. spec. 'm' on
+. line 2846.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addCJKfontfeatures with arg. spec. 'sO{}m' on
+. line 2852.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setCJKmathfont with arg. spec. 'O{}m' on line
+. 3020.
+.................................................
+\l__xeCJK_verb_case_int=\count167
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKVerbAddon with arg. spec. '' on line 3173.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKOffVerbAddon with arg. spec. '' on line
+. 3177.
+.................................................
+\l__xeCJK_verb_exspace_skip=\skip70
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty
+Package: xunicode-addon 2014/05/13 v3.2.12 addon file for xunicode
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \ReloadXunicode with arg. spec. 'm' on line 89.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \DeclareUTFmathsymbols with arg. spec. 'm' on
+* line 124.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \UseMathAsText with arg. spec. '' on line 133.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \UndeclareUTFcharacter with arg. spec.
+* 'O{\UTFencname }mm' on line 168.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \UndeclareUTFcomposite with arg. spec.
+* 'O{\UTFencname }mmm' on line 175.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \DeclareUTFcharacter with arg. spec.
+* 'O{\UTFencname }mm' on line 202.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFSymbol with arg. spec. 'mO{\UTFencname
+. }m' on line 228.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFCommand with arg. spec. 'mO{\UTFencname
+. }m' on line 230.
+.................................................
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \DeclareUTFcomposite with arg. spec.
+* 'O{\UTFencname }mmm' on line 273.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFCompositeCommand with arg. spec.
+. 'mO{\UTFencname }mm' on line 286.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFCompositeSymbol with arg. spec.
+. 'mO{\UTFencname }mm' on line 291.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFComposite with arg. spec.
+. 'mO{\UTFencname }' on line 293.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFEncodedAccent with arg. spec.
+. 'mO{\UTFencname }mm' on line 295.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFEncodedAccents with arg. spec.
+. 'mO{\UTFencname }mm' on line 297.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFEncodedSymbol with arg. spec.
+. 'mO{\UTFencname }mm' on line 299.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFEncodedCircle with arg. spec.
+. 'mO{\UTFencname }mm' on line 301.
+.................................................
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \DeclareEncodedCompositeCharacter with arg.
+* spec. 'mmmm' on line 303.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \DeclareEncodedCompositeAccents with arg. spec.
+* 'mmmm' on line 305.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFDoubleEncodedAccent with arg. spec.
+. 'mO{\UTFencname }mm' on line 307.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFDoubleEncodedSymbol with arg. spec.
+. 'mO{\UTFencname }mm' on line 309.
+.................................................
+\l__xunadd_circle_width_dim=\dimen266
+\l__xunadd_tmp_coffin=\box47
+\l__xunadd_circle_coffin=\box48
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \settextcircledratio with arg. spec. 'm' on line
+. 459.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \AtBeginUTFCommand with arg. spec. 'sO{}+m' on
+. line 528.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \AtEndUTFCommand with arg. spec. 'sO{}+m' on line
+. 538.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareUTFTIPACommand with arg. spec.
+. 'O{\UTFencname }m' on line 570.
+.................................................
+) (d:/ProgramFiles/texlive14/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+*** Reloading Xunicode for encoding 'EU1' ***
+) (d:/ProgramFiles/texlive14/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
+File: xunicode-extra.def 2014/05/13 v3.2.12 extra definition for xunicode
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKsetup with arg. spec. '+m' on line 3476.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKsetemboldenfactor with arg. spec. 'm' on
+. line 3478.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKsetslantfactor with arg. spec. 'm' on line
+. 3480.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \punctstyle with arg. spec. 'm' on line 3481.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKplainchr with arg. spec. '' on line 3482.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \CJKsetecglue with arg. spec. 'm' on line 3483.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \CJKspace with arg. spec. '' on line 3485.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \CJKnospace with arg. spec. '' on line 3486.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKallowbreakbetweenpuncts with arg. spec. ''
+. on line 3488.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKnobreakbetweenpuncts with arg. spec. '' on
+. line 3490.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKenablefallback with arg. spec. '' on line
+. 3492.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKdisablefallback with arg. spec. '' on line
+. 3494.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \xeCJKsetcharclass with arg. spec. 'mmm' on line
+. 3499.
+.................................................
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \nobreakspace with arg. spec. '' on line 3582.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \fontfamily with arg. spec. 'm' on line 3628.
+*************************************************
+(d:/ProgramFiles/texlive14/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg
+File: xeCJK.cfg 2014/05/13 v3.2.12 Configuration file for xeCJK package
+))
+\g_fontspec_family_微软雅黑_int=\count168
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font 微软雅黑/I (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '微软雅黑(0)' created for font '微软雅黑' with options
+. [Mapping=tex-text,Script={CJK},BoldFont={微软雅黑},ItalicFont={微软雅黑}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"微软雅黑/ICU:script=hani;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"微软雅黑/ICU:script=hani;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"微软雅黑/ICU:script=hani;language=DFLT;mapping=tex-text;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Arial(1)' created for font 'Arial' with options
+. [Mapping=tex-text,].
+. 
+. This font family consists of the following shapes:
+.................................................
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.
+tex
+\pgfutil@everybye=\toks33
+\pgfutil@tempdima=\dimen267
+\pgfutil@tempdimb=\dimen268
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-
+lists.tex))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.d
+ef
+\pgfutil@abb=\box49
+ (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+ (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.t
+ex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.te
+x
+\pgfkeys@pathtoks=\toks34
+\pgfkeys@temptoks=\toks35
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks36
+))
+\pgf@x=\dimen269
+\pgf@y=\dimen270
+\pgf@xa=\dimen271
+\pgf@ya=\dimen272
+\pgf@xb=\dimen273
+\pgf@yb=\dimen274
+\pgf@xc=\dimen275
+\pgf@yc=\dimen276
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count169
+\c@pgf@countb=\count170
+\c@pgf@countc=\count171
+\c@pgf@countd=\count172
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.
+def
+File: pgfsys-xetex.def 2013/07/16  (rcs-revision 1.9)
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdf
+mx.def
+File: pgfsys-dvipdfmx.def 2013/08/28  (rcs-revision 1.12)
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common
+-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)
+\pgfsys@objnum=\count173
+)))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpat
+h.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count174
+\pgfsyssoftpath@bigbuffer@items=\count175
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotoco
+l.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.t
+ex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+ (d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.t
+ex
+\pgfmath@dimen=\dimen277
+\pgfmath@count=\count176
+\pgfmath@box=\box50
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.cod
+e.tex
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.bas
+ic.code.tex)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.tri
+gonometric.code.tex)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ran
+dom.code.tex)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.com
+parison.code.tex)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.bas
+e.code.tex)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rou
+nd.code.tex)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.mis
+c.code.tex)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.int
+egerarithmetics.code.tex)))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.te
+x
+\c@pgfmathroundto@lastzeros=\count177
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.
+code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen278
+\pgf@picmaxx=\dimen279
+\pgf@picminy=\dimen280
+\pgf@picmaxy=\dimen281
+\pgf@pathminx=\dimen282
+\pgf@pathmaxx=\dimen283
+\pgf@pathminy=\dimen284
+\pgf@pathmaxy=\dimen285
+\pgf@xx=\dimen286
+\pgf@xy=\dimen287
+\pgf@yx=\dimen288
+\pgf@yy=\dimen289
+\pgf@zx=\dimen290
+\pgf@zy=\dimen291
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathcon
+struct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen292
+\pgf@path@lasty=\dimen293
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusa
+ge.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen294
+\pgf@shorten@start@additional=\dimen295
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.
+code.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count178
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphic
+state.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen296
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransfo
+rmations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen297
+\pgf@pt@y=\dimen298
+\pgf@pt@temp=\dimen299
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.c
+ode.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects
+.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathpro
+cessing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.
+code.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen300
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.c
+ode.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen301
+\pgf@sys@shading@range@num=\count179
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.c
+ode.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexterna
+l.code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box54
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.
+code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspa
+rency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepattern
+s.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.c
+ode.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box55
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.cod
+e.tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-versi
+on-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen302
+\pgf@nodesepend=\dimen303
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-versi
+on-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.te
+x)) (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen304
+\pgffor@skip=\dimen305
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.c
+ode.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/libraries/pgflibraryploth
+andlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count180
+\pgfplotmarksize=\dimen306
+)
+\tikz@lastx=\dimen307
+\tikz@lasty=\dimen308
+\tikz@lastxsaved=\dimen309
+\tikz@lastysaved=\dimen310
+\tikzleveldistance=\dimen311
+\tikzsiblingdistance=\dimen312
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count181
+\tikznumberofchildren=\count182
+\tikznumberofcurrentchild=\count183
+\tikz@fig@count=\count184
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.c
+ode.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count185
+\pgfmatrixcurrentcolumn=\count186
+\pgf@matrix@numberofcolumns=\count187
+)
+\tikz@expandcount=\count188
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.callouts.code.tex
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.callouts.code.tex))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box60
+\pgfnodeparttwobox=\box61
+\pgfnodepartthreebox=\box62
+\pgfnodepartfourbox=\box63
+\pgfnodeparttwentybox=\box64
+\pgfnodepartnineteenbox=\box65
+\pgfnodeparteighteenbox=\box66
+\pgfnodepartseventeenbox=\box67
+\pgfnodepartsixteenbox=\box68
+\pgfnodepartfifteenbox=\box69
+\pgfnodepartfourteenbox=\box70
+\pgfnodepartthirteenbox=\box71
+\pgfnodeparttwelvebox=\box72
+\pgfnodepartelevenbox=\box73
+\pgfnodeparttenbox=\box74
+\pgfnodepartninebox=\box75
+\pgfnodeparteightbox=\box76
+\pgfnodepartsevenbox=\box77
+\pgfnodepartsixbox=\box78
+\pgfnodepartfivebox=\box79
+)))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarydecorations.code.tex
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorati
+ons.code.tex
+\pgfdecoratedcompleteddistance=\dimen313
+\pgfdecoratedremainingdistance=\dimen314
+\pgfdecoratedinputsegmentcompleteddistance=\dimen315
+\pgfdecoratedinputsegmentremainingdistance=\dimen316
+\pgf@decorate@distancetomove=\dimen317
+\pgf@decorate@repeatstate=\count189
+\pgfdecorationsegmentamplitude=\dimen318
+\pgfdecorationsegmentlength=\dimen319
+)
+\tikz@lib@dec@box=\box80
+)
+\c@Newthem=\count190
+\c@Newlemma=\count191
+\c@Newcorol=\count192
+\c@Newprop=\count193
+\c@Newdefinition=\count194
+\c@Newexam=\count195
+\c@Newexer=\count196
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/manfnt/manfnt.sty
+Package: manfnt 1999/07/010.2LaTeX2e manfnt package
+\dbend@height=\skip71
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip72
+\f@ncyO@elh=\skip73
+\f@ncyO@erh=\skip74
+\f@ncyO@olh=\skip75
+\f@ncyO@orh=\skip76
+\f@ncyO@elf=\skip77
+\f@ncyO@erf=\skip78
+\f@ncyO@olf=\skip79
+\f@ncyO@orf=\skip80
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+)
+\elegant@CJKChar@size@dimen=\dimen320
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen321
+\extrarowheight=\dimen322
+\NC@list=\toks45
+\extratabsurround=\skip81
+\backup@length=\skip82
+)
+\rotheadsize=\dimen323
+\c@nlinenum=\count197
+\TeXr@lab=\toks46
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count198
+)
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/beebe/texnames.sty
+This is texnames.sty, Version 1.10 <02 March 1998>
+) (./guide.aux)
+\openout1 = `guide.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 34.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 34.
+ (d:/ProgramFiles/texlive14/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 34.
+\AtBeginShipoutBox=\box81
+Package hyperref Info: Link coloring ON on input line 34.
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count199
+)
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
+(./guide.out) (./guide.out)
+\@outlinefile=\write4
+\openout4 = `guide.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(76.82243pt, 443.863pt, 76.82243pt)
+* v-part:(T,H,B)=(72.26997pt, 700.5069pt, 72.26997pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=443.863pt
+* \textheight=700.5069pt
+* \oddsidemargin=4.55244pt
+* \evensidemargin=4.55244pt
+* \topmargin=-73.12352pt
+* \headheight=61.74242pt
+* \headsep=11.38109pt
+* \topskip=12.0pt
+* \footskip=34.1433pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ABD: EveryShipout initializing macros
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 34.
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \Pifont with arg. spec. 'm' on line 34.
+*************************************************
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font 微软雅黑/I (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '微软雅黑(1)' created for font '微软雅黑' with options
+. [Mapping=tex-text,Script={CJK}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"微软雅黑/ICU:script=hani;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"微软雅黑/B/ICU:script=hani;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"微软雅黑/BI/ICU:script=hani;language=DFLT;mapping=tex-text;"
+.................................................
+File: ./figure/logo.pdf Graphic file (type QTm)
+<use  "./figure/logo.pdf" >
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 35.
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 35.
+
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 35.
+
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 35.
+
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 35.
+
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 35.
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 35.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 35.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 35.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 35.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 35.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 35.
+File: ./figure/cover.pdf Graphic file (type QTm)
+
+<use  "./figure/cover.pdf" > [1
+
+]
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+ <use  "./figure/greenbase.pdf" > (./guide.toc)
+\tf@toc=\write5
+\openout5 = `guide.toc'.
+
+[2
+
+]
+第 1章 1.
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+<use  "./figure/greenbase.pdf" > [1
+
+
+]
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+ <use  "./figure/greenbase.pdf" > [2]
+第 2章 2.
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+<use  "./figure/greenbase.pdf" >
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '微软雅黑(1)' created for font '微软雅黑' with options
+. [Mapping=tex-text,Script={CJK}].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font 微软雅黑/I (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font 微软雅黑/I (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '微软雅黑(2)' created for font '微软雅黑' with options
+. [Mapping=tex-text,Script={CJK},BoldFont={微软雅黑}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"微软雅黑/ICU:script=hani;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"微软雅黑/ICU:script=hani;language=DFLT;mapping=tex-text;"
+.................................................
+
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+ [3
+
+]
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+
+<use  "./figure/greenbase.pdf" > [4]
+Overfull \hbox (61.67801pt too wide) in paragraph at lines 131--132
+[][][][][] [] [][] [] [][][][][][][] [] [][][][][][][][][][][][] [] [][][][][] 
+[] [][] [] [][][][][][][] [] [][][][][][][][][][][][] [] [][][][] [] [][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][]\EU1/微软雅黑(0)/m/it/12
+ 。| 
+ []
+
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+<use  "./figure/greenbase.pdf" > [5]
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+ <use  "./figure/greenbase.pdf" > [6]
+第 3章 3.
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+<use  "./figure/greenbase.pdf" > [7
+
+]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family '微软雅黑(1)' created for font '微软雅黑' with options
+. [Mapping=tex-text,Script={CJK}].
+. 
+. This font family consists of the following shapes:
+.................................................
+
+
+LaTeX Font Warning: Font shape `U/manual/m/it' undefined
+(Font)              using `U/manual/m/n' instead on input line 181.
+
+
+LaTeX Font Warning: Font shape `EU1/微软雅黑(1)/m/it' undefined
+(Font)              using `EU1/微软雅黑(1)/m/n' instead on input line 182.
+
+
+LaTeX Font Warning: Font shape `EU1/Arial(0)/m/sc' undefined
+(Font)              using `EU1/Arial(0)/m/n' instead on input line 187.
+
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+<use  "./figure/greenbase.pdf" > [8]
+第 4章 4.
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+<use  "./figure/greenbase.pdf" >
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 193.
+
+
+Overfull \hbox (42.32059pt too wide) in paragraph at lines 225--226
+[]\EU1/微软雅黑(1)/m/n/12 综 合 起 来，|  同 时 调 用 三 个 选 项 使 用 []\EU1/Arial(1)/m/n/12 \do
+cumentclass[color=X,Y,titlestyle=Z] {elegantbook}\EU1/微软雅黑(1)/m/n/12 。|
+ []
+
+[9
+
+]
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+ <use  "./figure/greenbase.pdf" > [10]
+第 5章 5.
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+<use  "./figure/greenbase.pdf" >
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 254
+.
+
+(d:/ProgramFiles/texlive14/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+) [11
+
+]
+Overfull \hbox (0.18727pt too wide) in paragraph at lines 268--270
+[]\EU1/Arial(0)/bx/n/12 Exercise5.1:  \EU1/Arial(0)/m/n/12 let $\OML/zplm/m/it/
+12 S \OT1/zplm/m/n/12 = \OML/zplm/m/it/12 l[] \OT1/zplm/m/n/12 = [](\OML/zplm/m
+/it/12 x[]\OT1/zplm/m/n/12 ) \OMS/zplm/m/n/12 j 9 \OML/zplm/m/it/12 M[]\OMS/zpl
+m/m/n/12 8\OML/zplm/m/it/12 n\OT1/ppl/m/n/12 , \OMS/zplm/m/n/12 j\OML/zplm/m/it
+/12 x[]\OMS/zplm/m/n/12 j ^^T \OML/zplm/m/it/12 M\OT1/ppl/m/n/12 , \OML/zplm/m/
+it/12 x[] \OMS/zplm/m/n/12 2 \U/fplmbb/m/n/12 R[]$\EU1/Arial(0)/m/n/12 , $\OML/
+zplm/m/it/12 ^^Z[]\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 x\OT1/ppl/m/n/12 , \OML/z
+plm/m/it/12 y\OT1/zplm/m/n/12 ) =
+ []
+
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+<use  "./figure/greenbase.pdf" > [12]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 298.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 298.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 298.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 298.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 298.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 298.
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+ <use  "./figure/greenbase.pdf" > [13]
+(./guide.bbl
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+ <use  "./figure/greenbase.pdf" > [14]
+File: ./figure/greenbase.pdf Graphic file (type QTm)
+
+<use  "./figure/greenbase.pdf" >) 
+AED: lastpage setting LastPage
+[15
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
+ (./guide.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 357.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 357.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 39158 strings out of 493734
+ 789822 string characters out of 6145568
+ 946029 words of memory out of 5000000
+ 41881 multiletter control sequences out of 15000+600000
+ 23825 words of font info for 125 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 62i,16n,71p,10395b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on guide.pdf (17 pages).
