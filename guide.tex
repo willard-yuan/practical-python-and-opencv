@@ -39,6 +39,8 @@
 \definecolor{mymauve}{rgb}{0.58,0,0.82}
 
 \lstset{ %
+  numbers=left,                    %设置显示行号在左边
+  frame=topline,                   %让代码周围显示边框
   backgroundcolor=\color{white},   % choose the background color
   basicstyle=\footnotesize,        % size of fonts used for the code
   breaklines=true,                 % automatic line breaking only at whitespace
@@ -181,18 +183,40 @@ OpenCV文档提供了在Windows和Linux用二进制版本安装OpenCV非常棒�
 首先，我们创建一个名为load\_display\_save.py来包含我们的代码，现在我们可以开始写代码了：
 
 \begin{lstlisting}[language=python]
->>> from numpy import *
->>> from numpy.fft import *
->>> signal = array([-2., 8., -6., 4., 1., 0., 3., 5.])
->>> fourier = fft(signal)
->>> N = len(signal)
->>> timestep = 0.1 # if unit=day -> freq unit=cycles/day
->>> freq = fftfreq(N, d=timestep) # freqs corresponding to 'fourier'
->>> freq
-array([ 0. , 1.25, 2.5 , 3.75, -5. , -3.75, -2.5 , -1.25])
->>> fftshift(freq) # freqs in ascending order
-array([-5. , -3.75, -2.5 , -1.25, 0. , 1.25, 2.5 , 3.75])
+import argparse
+import cv2
+
+ap = argparse.ArgumentParser()
+ap.add_argument("-i", "--image", required = True,
+	help = "Path to the image")
+args = vars(ap.parse_args())
 \end{lstlisting}
+
+我们要做的第一件事是导入在这个例子中我们需要的包。我们用了argparse来解析我们的命令行参数。然后，导入cv2 - 这里cv2就是我们的OpenCV库，它包含了我们需要的图像处理函数。
+
+\begin{figure}[!hbtp]
+\centering  %使图片居中显示
+\includegraphics[width=0.8\textwidth]{figure-31.jpg}
+\caption{载入并在屏幕上显示一幅霸王龙图像的例子\label{figur:Tyrannosaurus-Rex}}
+\end{figure}
+
+上面代码\textbf{第4-7行}用于解析命令行参数。这里我们需要的唯一一个参数是--image：磁盘上图像所在的路径。最后，我们解析这些参数，并在它们保存在一个字典中。
+
+\begin{lstlisting}[language=python]
+image = cv2.imread(args["image"])
+print "width: %d pixels" % (image.shape[1])
+print "height: %d pixels" % (image.shape[0])
+print "channels: %d" % (image.shape[2])
+
+cv2.imshow("Image", image)
+cv2.waitKey(0)
+\end{lstlisting}
+
+既然我们有了图像所在的路径，在\textbf{第8行}我们就可以用cv2.imread函数从磁盘载入该图像。cv2.imread函数返回一个NumPy数组，用于表示一幅图像。
+
+\textbf{第9-11行}检查图像的维数。由于图像是用NumPy数组来表示的，我们可以用shape属性来检查该图像的宽、高，以及颜色通道数。
+
+最后，\textbf{第13行}和\textbf{第14行}用于在屏幕上显示实际载入的图像。cv2.imshow的第一个参数是一个字符串，是窗口的“名字”；第二个参数是我们在\textbf{第8行}从磁盘载入的图像。最后调用了cv2.WaitKey函数来暂停运行的脚本，直到我们在键盘上按下一个键。用参数“0”表示按下任意一个键就会释放暂停。
 
  我们目前都是学生，接触 \LaTeX{} 的时间也不是很长，因此，对于此模板的错误还请多多包涵！ 目前，模板的拓展性或者可移植性有待完善，所以，我们强烈建议用户不要大幅修改模板文件，我们的初衷是提供一套模板，让初学者能够使用一些比较美观，优雅的模板。如果在使用过程中，想修改一些简单的东西需要帮忙，请联系我们，我们的邮箱是：\href{elegantlatex2e@gmail.com}{elegantlatex2e@gmail.com}。我们将竭尽全力提供帮助！
 
