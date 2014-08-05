@@ -182,6 +182,8 @@ OpenCV文档提供了在Windows和Linux用二进制版本安装OpenCV非常棒�
 
 首先，我们创建一个名为load\_display\_save.py来包含我们的代码，现在我们可以开始写代码了：
 
+列表 3.1: load\_display\_save.py
+
 \begin{lstlisting}[language=python]
 import argparse
 import cv2
@@ -202,6 +204,8 @@ args = vars(ap.parse_args())
 
 上面代码\textbf{第4-7行}用于解析命令行参数。这里我们需要的唯一一个参数是--image：磁盘上图像所在的路径。最后，我们解析这些参数，并在它们保存在一个字典中。
 
+列表 3.2: load\_display\_save.py
+
 \begin{lstlisting}[language=python]
 image = cv2.imread(args["image"])
 print "width: %d pixels" % (image.shape[1])
@@ -217,6 +221,42 @@ cv2.waitKey(0)
 \textbf{第9-11行}检查图像的维数。由于图像是用NumPy数组来表示的，我们可以用shape属性来检查该图像的宽、高，以及颜色通道数。
 
 最后，\textbf{第13行}和\textbf{第14行}用于在屏幕上显示实际载入的图像。cv2.imshow的第一个参数是一个字符串，是窗口的“名字”；第二个参数是我们在\textbf{第8行}从磁盘载入的图像。最后调用了cv2.WaitKey函数来暂停运行的脚本，直到我们在键盘上按下一个键。用参数“0”表示按下任意一个键就会释放暂停。
+
+最后，我们将该幅图像以JPG的格式写入文件中：
+
+列表 3.3: load\_display\_save.py
+
+\begin{lstlisting}[language=python]
+cv2.imwrite("newimage.jpg", image)
+\end{lstlisting}
+
+要运行上面的脚本并显示出图片，我们只需要打开终端窗口，并执行下面的命令：
+
+列表 3.4: load\_display\_save.py
+
+\begin{lstlisting}[language=bash]
+$ python load_display_save.py --image ../images/trex.png
+\end{lstlisting}
+
+如果不错什么问题的话，你应该可以在你的屏幕上看到\textbf{图3.1}中的霸王龙。要终止脚本的执行的话，只需要在图像窗口上单击，并按下任意键。
+
+检查上面脚本的输出结果，你应该可以看到图片的一些基本信息。你会看到对于那张霸王龙图片，它的宽是350个像素，高是228个像素，以及3个颜色通道(R、G、B三个颜色通道)。用一个NumPy数组表示的话，该数组大小为(350,228,3)。
+
+当我们在写矩阵时，通常我们会将它们写成这种形式：\# 行 $\times$ \#列——但对于NumPy，便不是这样的了。NumPy通常会先给出列数，然后才是行数。这点，你要牢牢记住。
+
+最后，注意文件夹里的内容。你会看到有一个新文件在那儿：newimage.jpg。OpenCV会自动地为我们将PNG格式的图片转换为JPG格式图片！所以在图像格式间进行转换时我们并不需要费什么劲。
+
+下一章，我们将探索怎样在一幅图像上获取像素值并对像素值进行操作。
+
+\chapter{图像基础}
+
+在这一章中，我们将{\color{red}{审查图像的积木}}——像素。我们将详细的讨论什么是像素，以及像素是怎样形成一幅图像的，并且怎么在OpenCV里对这些像素进行操作。
+
+\subsection{那么，什么是像素？}
+
+每幅图像由像素集组成。像素是一幅图像的{\color{red}{原材料，积木}}。它是图像的最小单元。
+
+一般情况下，像素通常采用两种方式进行表示：灰度和彩色。在灰度图像中，每一个像素的像素值在0到255之间，“0”代表“黑色”，“1”表示“白色”。
 
  我们目前都是学生，接触 \LaTeX{} 的时间也不是很长，因此，对于此模板的错误还请多多包涵！ 目前，模板的拓展性或者可移植性有待完善，所以，我们强烈建议用户不要大幅修改模板文件，我们的初衷是提供一套模板，让初学者能够使用一些比较美观，优雅的模板。如果在使用过程中，想修改一些简单的东西需要帮忙，请联系我们，我们的邮箱是：\href{elegantlatex2e@gmail.com}{elegantlatex2e@gmail.com}。我们将竭尽全力提供帮助！
 
@@ -241,12 +281,6 @@ cv2.waitKey(0)
 本模板基于book文类，所以book的选项对于本模板也是有效的。但是，只支持 \XeLaTeX{}，编码为 UTF-8，推荐使用 \TeX{}live编译。作者编写环境为Win8.1(64bit)+\TeX{}live 2013，由于使用了参考文献，所以，编译顺序为\XeLaTeX->\BibTeX->\XeLaTeX->\XeLaTeX。
 
 本文特殊选项设置共有3类，分为{\color{main}颜色} 、{\color{main} 数学字体 }以及{\color{main} 章标题显示风格}。
-
-\chapter{图像基础}
-
-\subsection{那么，什么是像素？}
-
-一般情况下，像素通常采用两种方式进行表示：灰度和彩色。在灰度图像中，每一个像素的像素值在0到255之间，“0”代表“黑色”，“1”表示“白色”。
 
 第一类为{\color{main}颜色}主题设置，内置 3 组颜色主题，分别为 \verb|green|（默认），\verb|cyan|，\verb|blue|，另外还有一个自定义的选项 \verb|nocolor|，用户\textbf{必须}在使用模板的时候选择某个颜色主题或选择 \verb|nocolor|选项。调用颜色主题 \verb|green| 的方法为\verb|\documentclass[green]{elegantbook}|或者使用\verb|\documentclass[color=green]{elegantbook}|。需要改变颜色的话请选择 \verb|nocolor|选项或者使用 \verb|color=none|，然后在导言区定义main、seco、thid颜色，具体的方法如下：
 \begin{verbatim}
