@@ -203,17 +203,17 @@
 %\setCJKmainfont[BoldFont={黑体},ItalicFont={楷体}]{华文中宋}%方正书宋_GBK Adobe Song Std L
 %\setCJKsansfont[BoldFont={黑体}]{方正中等线简体}
 %\setCJKmonofont{方正中等线简体}
-\setCJKmainfont[BoldFont={微软雅黑},ItalicFont={微软雅黑}]{微软雅黑}%方正书宋_GBK Adobe Song Std L
-\setCJKsansfont[BoldFont={微软雅黑}]{微软雅黑}
+\setCJKmainfont[BoldFont={Microsoft YaHei},ItalicFont={Microsoft YaHei}]{Microsoft YaHei}%方正书宋_GBK Adobe Song Std L
+\setCJKsansfont[BoldFont={Microsoft YaHei}]{Microsoft YaHei}
 %\setCJKmonofont{方正中等线简体}
-\setCJKmonofont{微软雅黑}
+\setCJKmonofont{Microsoft YaHei}
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
 
 %\setCJKfamilyfont{new}{方正苏新诗柳楷简体}
 %\setCJKfamilyfont{note}{方正启体简体}
-\setCJKfamilyfont{new}{微软雅黑}
-\setCJKfamilyfont{note}{微软雅黑}
+\setCJKfamilyfont{new}{Microsoft YaHei}
+\setCJKfamilyfont{note}{Microsoft YaHei}
 %\newfontfamily\gara{Adobe Garamond Pro}
 \newfontfamily\gara{Arial}
 
